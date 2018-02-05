@@ -2,9 +2,20 @@
 <html>
 <head>
     <title>Title</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <% include jslibsAndStyles.html %>
 </head>
 <body>
+
+<% include header.html %>
+
+<div class="panel panel-default">
+    <div class="panel-heading">login</div>
+    <div class="panel-body">
+        Panel content
+    </div>
+</div>
+
+
 <form id="signin" name="signin" method="post" action="signin">
     <label for="email">Email Address</label>
     <input class="text" name="email" type="text" />

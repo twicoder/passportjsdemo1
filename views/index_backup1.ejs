@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <!--<link rel='stylesheet' href='/stylesheets/style.css' />-->
+      <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+      <link rel="stylesheet" href="/stylesheets/bootstrap-theme.css">
+
+      <script src="/libs/jquery.min.js"></script>
+      <script src="/libs/bootstrap.js"></script>
+  </head>
+  <body>
+
+  <div class="alert alert-danger" role="alert">
+      <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+      <span class="sr-only">Error:</span>
+      Enter a valid email address
+  </div>
+
+  <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Dropdown
+          <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+      </ul>
+  </div>
+
+  <div class="dropup">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropup
+          <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+      </ul>
+  </div>
+
+
+  <div role="navigation">
+      <ul class="nav nav-tabs">
+          <li role="presentation" class="active"><a href="#">Home</a></li>
+          <li role="presentation"><a href="#">Profile</a></li>
+          <li role="presentation"><a href="#">Messages</a></li>
+      </ul>
+  </div>
+
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+  <a href="#" class="btn btn-primary">Test Btn</a>
+  </body>
+</html>
