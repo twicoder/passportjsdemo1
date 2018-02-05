@@ -1,0 +1,20 @@
+{
+  "name": "passportjsdemo",
+  "description": "",
+  "main": "",
+  "authors": [
+    "任庆伟 <renqw@asiainfo.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
